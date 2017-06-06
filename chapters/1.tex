@@ -54,13 +54,13 @@
 	Eftersom $x^2<16 = -4<x<4$ så betyder det att $A$ och $C$ är ekvivalenta och
 	eftersom x alltid är större än $-4$ i $C$ implicerar, både $A$ och $C$, $B$.
 	
-	\ans $A \Leftrightarrow C,~ C \Rightarrow B,~ A \Rightarrow B$
+	\ans $A \Leftrightarrow C,~ C \ra B,~ A \ra B$
 \end{task}
 
 \begin{task}{1.5 a)}
 	Om $A$ är sant är $B$ sant men om $B$ är sant behöver inte $A$ vara sant. Detta eftersom $a=1,~b=-1$ är sant för $B$ men inte för $A$. $A$ implicerar alltså $B$. $C$ går att förenkla till $a=b$ genom att dela på $b$ det medför dock att $b\neq0$. Eftersom en lösning är att $b=0,~a\in\mathbb{R}$ så är de inte ekvivalenta utan $A$ implicerar $C$. $C$ och $B$ är skilda från varandra eftersom inget av de två ovan nämnda fallen passar in på båda utsagorna. 
 	
-	\ans $A \Rightarrow B,~ A \Rightarrow C$
+	\ans $A \ra B,~ A \ra C$
 \end{task}
 
 \begin{task}{b)}
@@ -74,7 +74,7 @@
 	
 	$A$ och $D$ är alltså ekvivalenta, lika så $B$ och $C$. $A\subseteq B$ medför då att $A$ och $D$ implicerar både $B$ och $C$.
 	
-	\ans $A \Rightarrow B,~ A \Rightarrow C,~ D \Rightarrow B,~ D \Rightarrow C,~ A \Leftrightarrow D,~ B \Leftrightarrow C$
+	\ans $A \ra B,~ A \ra C,~ D \ra B,~ D \ra C,~ A \Leftrightarrow D,~ B \Leftrightarrow C$
 \end{task}
 
 \begin{task}{1.7}
@@ -84,7 +84,7 @@
 	\[D:~lnx + ln(x^3) = 0 \rightarrow x=1\]
 	$D$ ingår i alla andra vilket medför att $D$ implicerar alla andra. Eftersom svaren i både $A$ och $B$ är större än eller lika med 1 implicerar $A$ och $B$ $C$.
 	
-	\ans $D \Rightarrow A,~ D \Rightarrow B,~ D \Rightarrow C,~ A \Rightarrow C,~ B \Rightarrow C$
+	\ans $D \ra A,~ D \ra B,~ D \ra C,~ A \ra C,~ B \ra C$
 \end{task}
 
 \begin{task}{1.8}
@@ -94,7 +94,7 @@
 	\[D:~|x-2|<1 \lra x-2<1,~x-2>-1 \lra 1<x<3\]
 	Alla implicerar $C$ eftersom $C$ är alla tal. $D$ är en delmängd av $B$ som i sin tur är en delmängd av $A$. $D$ implicerar alltså $A$ och $B$ och $B$ implicerar $A$.
 	
-	\ans $A \Rightarrow C,~ D \Rightarrow A,~ B \Rightarrow A,~ D \Rightarrow B,~ D \Rightarrow C,~ B \Rightarrow C$
+	\ans $A \ra C,~ D \ra A,~ B \ra A,~ D \ra B,~ D \ra C,~ B \ra C$
 \end{task}
 
 \begin{task}{1.9}
@@ -104,5 +104,17 @@
 	\[D:~\ln(1+x^2)>0 \lra 1+x^>e^0 \Leftrightarrow x^2>1-1 \lra x\neq 0\]
 	$B\ra A$ är alltså sant ($x > 0\subseteq x\neq 0$), $A$ och $B$ är alltså inte samma mängd. $C$ implicerar inte $D$ eftersom $C$ innehåller 0 vilket $D$ inte gör. $A$ och $D$ är däremot ekvivalenta och implicerar $C$.
 	
-	\ans $B \Rightarrow A,~~ A \Rightarrow C,~~ A \Leftrightarrow D$
+	\ans $B \ra A,~ A \ra C,~ A \Leftrightarrow D$
+\end{task}
+
+\begin{task}{1.10}
+	Låt $x$ representera antalet pojkar som finns i varje utsaga ($0\le~x\le~10$, $x \in \mathbb{N}$).
+	\[A:~x=5\]
+	\[B:~x\le 4\]
+	\[C:~x\ge 3\]
+	\[D:~x\ge 5\]
+	\[E:~x\le 8\]
+	$A$ är alltså en delmängd av $C$, $D$ och $E$. $B$ är en delmängd av $E$ och $D$ är en delmängd av $C$.
+	
+	\ans $A \ra C,~ A \ra D,~ A \ra E,~ B \ra E,~ D \ra C$
 \end{task}
